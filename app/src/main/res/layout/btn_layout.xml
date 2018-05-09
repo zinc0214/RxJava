@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/info"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"/>
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/chap1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/firstBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="observable class"
+                    android:layout_marginTop="3dp"/>
+
+                <Button
+                    android:id="@+id/secondBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:background="#ffffff"
+                    android:text="single class" />
+
+                <Button
+                    android:id="@+id/thirdBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:background="#ffffff"
+                    android:text="subject class" />
+
+                <Button
+                    android:id="@+id/fourthBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:background="#ffffff"
+                    android:text="connect class" />
+
+                <Button
+                    android:id="@+id/fifthtBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:background="#ffffff"
+                    android:text="connect class"
+                    android:visibility="gone"/>
+
+                         </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</layout>

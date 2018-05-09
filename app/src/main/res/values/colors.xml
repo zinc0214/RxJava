@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#a58fc4</color>
+    <color name="colorPrimaryDark">#ff9d9f</color>
+    <color name="colorAccent">#88beff</color>
+    
+    <color name="intro">#eda30008</color>
+    <color name="chap1">#ffd6d6</color>
+    <color name="chap2">#ffbc84</color>
+    <color name="chap3">#ffff65</color>
+    <color name="chap4">#92dc4d</color>
+</resources>
