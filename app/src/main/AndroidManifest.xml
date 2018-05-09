@@ -33,6 +33,10 @@
             android:label="4. 리액티브 연산자 활용">
         </activity>
 
+        <activity android:name="ayhan.com.rxjavapractice.AndroidExamActivity"
+            android:label="5. 안드로이드 RxJava 활용">
+        </activity>
+
         <activity android:name="ayhan.com.rxjavapractice.operator2_create.CreateOpActivity"
             android:label="3.1 리액티브 연산자 - 생성자">
         </activity>
@@ -184,5 +188,38 @@
         <activity android:name="ayhan.com.rxjavapractice.Scheduler.OtherScheduler"
             android:label="4.2.5 그 외 Scheduler">
         </activity>
+
+        <activity android:name="ayhan.com.rxjavapractice.androidexam1.AndroidExam1Activity"
+            android:label="5.1 Android Rx Exam 1">
+        </activity>
+
+        <activity android:name="ayhan.com.rxjavapractice.androidexam2.AndroidExam2Activity"
+            android:label="5.2 Android Rx Exam 2">
+        </activity>
+
+        <activity android:name="ayhan.com.rxjavapractice.androidexam1.Helloworld"
+        android:label="5.1.1 Hello World">
+        </activity>
+
+        <activity android:name="ayhan.com.rxjavapractice.androidexam1.LoopActivity"
+        android:label="5.1.2 Loop Exam">
+        </activity>
+
+        <activity android:name="ayhan.com.rxjavapractice.androidexam1.RxLifeCycle"
+            android:label="5.1.3 Rx Life Cycle">
+        </activity>
+
+        <activity android:name="ayhan.com.rxjavapractice.androidexam1.UiEventExam"
+            android:label="5.1.4 Listener Exam">
+        </activity>
+
+        <activity android:name="ayhan.com.rxjavapractice.androidexam1.DebounceSearchExam"
+            android:label="5.1.5 Search Exam">
+        </activity>
+
+        <activity android:name="ayhan.com.rxjavapractice.androidexam2.RecyclerViewExam"
+            android:label="5.2.1 RecyclerViewExam">
+        </activity>
+
     </application>
 </manifest>
