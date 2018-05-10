@@ -26,7 +26,14 @@ public class AndroidExam2Activity extends AppCompatActivity {
         btnLayoutBinding.info.setText("리액티브 연산자 입문");
 
         btnLayoutBinding.firstBtn.setText("RecyclerView Exam");
+        btnLayoutBinding.secondBtn.setText("AsyncTask Exam");
+        btnLayoutBinding.thirdBtn.setText("TimerTask Exam");
+        btnLayoutBinding.fourthBtn.setText("Timer To RxJava Exam");
+
         btnLayoutBinding.firstBtn.setOnClickListener(l -> startActivity(new Intent(this, RecyclerViewExam.class)));
+        btnLayoutBinding.secondBtn.setOnClickListener(l -> startActivity(new Intent(this, AsyncTaskActivity.class)));
+        btnLayoutBinding.thirdBtn.setOnClickListener(l-> startActivity(new Intent(this, TimerTaskActivity.class)));
+        btnLayoutBinding.fourthBtn.setOnClickListener(l ->  startActivity(new Intent(this, TimerToRxActivity.class)));
     }
 
 }
