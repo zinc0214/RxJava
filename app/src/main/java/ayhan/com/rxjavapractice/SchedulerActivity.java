@@ -6,8 +6,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import ayhan.com.rxjavapractice.Scheduler.SchedulerExam;
-import ayhan.com.rxjavapractice.Scheduler.SchedulerIntro;
+import ayhan.com.rxjavapractice.scheduler.SchedulerExam;
+import ayhan.com.rxjavapractice.scheduler.SchedulerIntro;
 import ayhan.com.rxjavapractice.databinding.BtnLayoutBinding;
 
 /**

@@ -1,4 +1,4 @@
-package ayhan.com.rxjavapractice.Scheduler;
+package ayhan.com.rxjavapractice.scheduler;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;

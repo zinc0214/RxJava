@@ -32,7 +32,7 @@ public class Operator1Activity extends AppCompatActivity {
 
         btnLayoutBinding.info.setText("리액티브 연산자 입문");
         btnLayoutBinding.firstBtn.setText("Map Method");
-        btnLayoutBinding.secondBtn.setText("SwitchMap Method");
+        btnLayoutBinding.secondBtn.setText("FlatMap Method");
         btnLayoutBinding.thirdBtn.setText("Filter Method");
         btnLayoutBinding.fourthBtn.setText("Reduce Method");
         btnLayoutBinding.fifthtBtn.setText("Itegration Exmaple");
