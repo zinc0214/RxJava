@@ -15,15 +15,15 @@ import retrofit2.http.Path;
  */
 
 //Retrofit 은 RxJava 를 정식으로 지원하고 있다..!
-public abstract class GithubServiceApi {
+public interface GithubServiceApi {
     @GET("repos/{owner}/{repo}/contributors")
-    abstract Call<List<Contributor>> getCallContributors(@Path("owner") String owner, @Path("repo") String repo);
+    Call<List<Contributor>> getCallContributors(@Path("owner") String owner, @Path("repo") String repo);
 
 
     @GET("repos/{owner}/{repo}/contributors")
-    abstract Observable<List<Contributor>> getObContributors(@Path("owner") String owner, @Path("repo") String repo);
+    Observable<List<Contributor>> getObContributors(@Path("owner") String owner, @Path("repo") String repo);
 
     @Headers({"Accept: application/vnd.github.v3.full+json"})
     @GET("repos/{owner}/{repo}/contributors")
-    abstract Future<List<Contributor>> getFutureContributors(@Path("owner") String owner, @Path("repo") String repo);
+    Future<List<Contributor>> getFutureContributors(@Path("owner") String owner, @Path("repo") String repo);
 }

@@ -237,6 +237,10 @@
             android:label="5.3 VolleyExam">
         </activity>
 
+        <activity android:name="ayhan.com.rxjavapractice.okhttpexam.OkhttpActivity"
+            android:label="5.4 OkHttpExam">
+        </activity>
+
 
 
     </application>
