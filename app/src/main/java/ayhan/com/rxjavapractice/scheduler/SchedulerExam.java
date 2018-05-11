@@ -1,4 +1,4 @@
-package ayhan.com.rxjavapractice.Scheduler;
+package ayhan.com.rxjavapractice.scheduler;
 
 import android.content.Intent;
 import android.databinding.DataBindingUtil;

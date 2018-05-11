@@ -33,6 +33,10 @@
             android:label="4. 리액티브 연산자 활용">
         </activity>
 
+        <activity android:name="ayhan.com.rxjavapractice.AndroidExamActivity"
+            android:label="5. 안드로이드 RxJava 활용">
+        </activity>
+
         <activity android:name="ayhan.com.rxjavapractice.operator2_create.CreateOpActivity"
             android:label="3.1 리액티브 연산자 - 생성자">
         </activity>
@@ -157,32 +161,91 @@
             android:label="3.4.5 그 외 함수">
         </activity>
 
-        <activity android:name="ayhan.com.rxjavapractice.Scheduler.SchedulerIntro"
+        <activity android:name="ayhan.com.rxjavapractice.scheduler.SchedulerIntro"
             android:label="4.1 스케줄러란">
         </activity>
 
-        <activity android:name="ayhan.com.rxjavapractice.Scheduler.SchedulerExam"
+        <activity android:name="ayhan.com.rxjavapractice.scheduler.SchedulerExam"
             android:label="4.2 스케줄러의 종류">
         </activity>
 
-        <activity android:name="ayhan.com.rxjavapractice.Scheduler.NewThreadScheduler"
+        <activity android:name="ayhan.com.rxjavapractice.scheduler.NewThreadScheduler"
             android:label="4.2.1 New Thread Scheduler">
         </activity>
 
-        <activity android:name="ayhan.com.rxjavapractice.Scheduler.ComputationScheduler"
+        <activity android:name="ayhan.com.rxjavapractice.scheduler.ComputationScheduler"
             android:label="4.2.2 계산 Scheduler">
         </activity>
 
-        <activity android:name="ayhan.com.rxjavapractice.Scheduler.IOScheduler"
+        <activity android:name="ayhan.com.rxjavapractice.scheduler.IOScheduler"
             android:label="4.2.3 IO Scheduler">
         </activity>
 
-        <activity android:name="ayhan.com.rxjavapractice.Scheduler.TrampolineScheduler"
+        <activity android:name="ayhan.com.rxjavapractice.scheduler.TrampolineScheduler"
             android:label="4.2.4 트램펄린 Scheduler">
         </activity>
 
-        <activity android:name="ayhan.com.rxjavapractice.Scheduler.OtherScheduler"
+        <activity android:name="ayhan.com.rxjavapractice.scheduler.OtherScheduler"
             android:label="4.2.5 그 외 Scheduler">
         </activity>
+
+        <activity android:name="ayhan.com.rxjavapractice.androidexam1.AndroidExam1Activity"
+            android:label="5.1 Android Rx Exam 1">
+        </activity>
+
+        <activity android:name="ayhan.com.rxjavapractice.androidexam2.AndroidExam2Activity"
+            android:label="5.2 Android Rx Exam 2">
+        </activity>
+
+        <activity android:name="ayhan.com.rxjavapractice.androidexam1.Helloworld"
+        android:label="5.1.1 Hello World">
+        </activity>
+
+        <activity android:name="ayhan.com.rxjavapractice.androidexam1.LoopActivity"
+        android:label="5.1.2 Loop Exam">
+        </activity>
+
+        <activity android:name="ayhan.com.rxjavapractice.androidexam1.RxLifeCycle"
+            android:label="5.1.3 Rx Life Cycle">
+        </activity>
+
+        <activity android:name="ayhan.com.rxjavapractice.androidexam1.UiEventExam"
+            android:label="5.1.4 Listener Exam">
+        </activity>
+
+        <activity android:name="ayhan.com.rxjavapractice.androidexam1.DebounceSearchExam"
+            android:label="5.1.5 Search Exam">
+        </activity>
+
+        <activity android:name="ayhan.com.rxjavapractice.androidexam2.RecyclerViewExam"
+            android:label="5.2.1 RecyclerViewExam">
+        </activity>
+
+        <activity android:name="ayhan.com.rxjavapractice.androidexam2.AsyncTaskActivity"
+            android:label="5.2.2 AsyncTaskExam">
+        </activity>
+
+        <activity android:name="ayhan.com.rxjavapractice.androidexam2.TimerTaskActivity"
+            android:label="5.2.3 TimerTaskExam">
+        </activity>
+
+        <activity android:name="ayhan.com.rxjavapractice.androidexam2.TimerToRxActivity"
+            android:label="5.2.4 TimerToRxJavaExam">
+        </activity>
+
+        <activity android:name="ayhan.com.rxjavapractice.volleyexam.VolleyActivity"
+            android:label="5.3 VolleyExam">
+        </activity>
+
+        <activity android:name="ayhan.com.rxjavapractice.okhttpexam.OkhttpActivity"
+            android:label="5.4 OkHttpExam">
+        </activity>
+
+
+
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
 </manifest>

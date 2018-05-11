@@ -33,6 +33,10 @@ public class IntroActivity extends AppCompatActivity {
 
         mainLayoutBinding.schedulerActivity.setOnClickListener(l ->
                 startActivity(new Intent(this, SchedulerActivity.class)));
+
+        mainLayoutBinding.androidExamActivity.setOnClickListener(l ->
+                startActivity(new Intent(this, AndroidExamActivity.class)));
+
     }
 
 }
